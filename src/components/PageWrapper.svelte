@@ -1,3 +1,3 @@
-<section class="text-white md:text-black">
+<section class="text-white">
     <slot/>
 </section>
