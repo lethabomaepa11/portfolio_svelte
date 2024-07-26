@@ -15,7 +15,7 @@
             <Icon className="fa fa-code"/>
             <span>
                 <h3 class="text-md"> Web Development</h3>
-                <p class="text-sm">My description will go here</p>
+                <p class="text-sm">React, NextJS, Svelte</p>
             </span>
         </div>
     </div>

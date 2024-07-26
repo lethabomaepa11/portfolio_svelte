@@ -1,11 +1,10 @@
 <script>
-	import Icon from "./Icon.svelte";
 	import LinkCard from "./LinkCard.svelte";
 
 </script>
 
 <aside class="hidden lg:flex flex-col gap-5 w-3/12 min-h-screen py-5 px-3 ">
-<div class="bg-slate-800 h-full flex flex-col justify-center items-center gap-5 rounded-md p-5 overflow-hidden">
+<div class="slideOut transition-all bg-slate-800 h-full flex flex-col justify-center items-center gap-5 rounded-md p-5 overflow-hidden">
     <div class="image rounded h-[150px] w-[150px] bg-slate-700">
         <img src="https://avatars.githubusercontent.com/u/129387924?s=400&u=953c70011c4e2b4c0c05dd51b502e2fc4a7ab06b&v=4" alt="github avatar"/>
     </div>

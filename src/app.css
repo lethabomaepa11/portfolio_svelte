@@ -16,3 +16,14 @@ h1, h2, h3, h4, h5{
 p{
     color: #9ca3af;
 }
+@keyframes scaleOut{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.slideOut{
+    animation: scaleOut 1s     ease-in-out;
+}
