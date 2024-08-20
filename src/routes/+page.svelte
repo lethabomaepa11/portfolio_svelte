@@ -6,6 +6,7 @@ import Contact from "../components/Contact.svelte"
 import SideNav from "../components/SideNav.svelte"
 import Header from "../components/Header.svelte"
 import { onMount, onDestroy } from 'svelte';
+	import MyInfo from "../components/MyInfo.svelte";
 
   let fragment = '';
   let isVisible = false;
@@ -44,7 +45,7 @@ import { onMount, onDestroy } from 'svelte';
       <section class="lg:bg-slate-800 p-5 rounded-lg flex flex-col gap-5">
           <Header {fragment} {isVisible}/>
           <!---Bigger screens-->
-          <main class="hidden lg:flex w-full p-5 rounded lg:overflow-scroll" style="max-height: 75vh;">
+          <main class="hidden lg:flex w-full p-5 rounded lg:overflow-y-scroll" style="max-height: 75vh;">
             {#if fragment == "about"}
               <About/>
             {:else if fragment == "resume"}
@@ -56,7 +57,8 @@ import { onMount, onDestroy } from 'svelte';
             {/if}
           </main>
           <!---Mobile Screens-->
-          <main class="lg:hidden w-full lg:bg-slate-800 p-5 rounded lg:overflow-scroll">
+          <main class="lg:hidden w-full lg:bg-slate-800 overflow-hidden  rounded lg:overflow-y-scroll flex flex-col justify-center items-center">
+              <MyInfo/>
               <About/>
               <div class="my-80"></div>          
               <Resume/>
