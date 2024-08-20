@@ -21,6 +21,8 @@ import { onMount, onDestroy } from 'svelte';
       }
       isVisible = false;
     }
+    
+
   };
 
   onMount(() => {

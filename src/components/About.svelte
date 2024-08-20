@@ -3,7 +3,7 @@
 
 </script>
 <section id="about" class="flex flex-col mt-5 gap-5">
-    <h1 class="md:hidden font-bold text-2xl">About</h1>
+    <h1 class="md:hidden font-bold text-2xl page">About</h1>
     <p class="text-gray-400">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptas voluptatibus similique accusamus non recusandae ducimus magni, aliquam dolor. Libero rem adipisci dignissimos reiciendis veritatis laborum, doloribus sed quo amet.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores dolorum, eos consequuntur veniam, asperiores mollitia est ratione accusantium laborum laudantium vel corporis ut. Placeat dolores fuga fugiat numquam possimus?
