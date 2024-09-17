@@ -13,7 +13,7 @@ import Icon from "./Icon.svelte";
     
 </script>
 <header class="fixed flex items-center bg-slate-900 top-0 p-1 pt-5 gap-5 lg:hidden w-screen z-50">   
-    <button on:click={toggleMenu} class="lg:hidden  lg:text-black"><Icon className="fa fa-bars"/></button>
+    <button on:click={toggleMenu} class="lg:hidden  lg:text-black"><Icon className="fa fa-bars text-2xl ml-3"/></button>
     <a href="/" class="lg:hidden"><h1 class="text-2xl font-bold text-gray-400">Lethabo <span class="text-indigo-600">Maepa</span></h1></a>
 </header>
 

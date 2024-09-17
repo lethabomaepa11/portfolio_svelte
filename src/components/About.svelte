@@ -25,7 +25,7 @@
         applications, I am eager to apply my academic knowledge and project experience to contribute to building solutions 
         that will help shape the future of software development and the community. 
     </p>
-    <h1 class="font-bold text-xl">Languages and Frameworks</h1>
+    <h1 class="font-bold text-xl">Technologies</h1>
     <!--Languages-->
 
     <div id="marquee" class="flex gap-5 marquee p-3" data-aos="zoom-in-left" data-aos-duration="2000">

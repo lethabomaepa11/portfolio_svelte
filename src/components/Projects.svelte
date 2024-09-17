@@ -5,7 +5,7 @@
 
     const projects = [{
         name: "Quiz Application",
-        description: "nn",
+        description: "This is a quiz application that allows users to create, delete and try quizzes, any user can try any quiz multiple times, each user will be able to view their results to a specific quiz upon completion, they can also get their results in their profile pages, these results are only visible to them.",
         link: "https://looquiz.vercel.app" ,
         languages: "javascript, react, nextjs",
         images: [

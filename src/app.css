@@ -243,6 +243,15 @@ p{
     from{--p:0}
   }
   
-  body {
-    background:#f2f2f2;
+  .isNotLevel, .isLevel{
+    @apply rounded-md bg-slate-500 p-3;
+    color: #9ca3af;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+  }
+  .isLevel{
+    background-color: royalblue;
+    color: #fff;
   }
