@@ -12,7 +12,7 @@ import Icon from "./Icon.svelte";
     
     
 </script>
-<header class="fixed flex items-center bg-slate-900 top-0 p-1 pt-5 gap-5 lg:hidden w-screen">   
+<header class="fixed flex items-center bg-slate-900 top-0 p-1 pt-5 gap-5 lg:hidden w-screen z-50">   
     <button on:click={toggleMenu} class="lg:hidden  lg:text-black"><Icon className="fa fa-bars"/></button>
     <a href="/" class="lg:hidden"><h1 class="text-2xl font-bold text-gray-400">Lethabo <span class="text-indigo-600">Maepa</span></h1></a>
 </header>
@@ -30,9 +30,10 @@ import Icon from "./Icon.svelte";
 
         <ul class="flex flex-col items-center lg:flex-row gap-3 mt-10 lg:mt-0">
             <a href="#about" on:click={toggleMenu} class="transition-all {fragment == "about" && active} hover:text-indigo-600"><li>About</li></a>
-            <a href="#resume" on:click={toggleMenu} class="transition-all {fragment == "resume" && active} hover:text-indigo-600"><li>Resume</li></a>
+            <a href="#skills" on:click={toggleMenu} class="transition-all {fragment == "skills" && active} hover:text-indigo-600"><li>Skills</li></a>
             <a href="#projects" on:click={toggleMenu} class="transition-all {fragment == "projects" && active} hover:text-indigo-600"><li>Projects</li></a>
-            <a href="#contact" on:click={toggleMenu} class="transition-all {fragment == "contact" && active} hover:text-indigo-600"><li>Contact</li></a>
+            <a href="/" on:click={toggleMenu} class="transition-all lg:hidden   hover:text-indigo-600"><li>Contact Me</li></a>
+            <a href="/resume/Lethabo Maepa CV.pdf" target="_blank" on:click={toggleMenu} class="transition-all   bg-blue-500 rounded-md p-2 hover:bg-blue-900"><li>Download Resume</li></a>
         </ul>
     </nav>
 </header>

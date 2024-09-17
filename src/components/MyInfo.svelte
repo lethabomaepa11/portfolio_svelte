@@ -3,8 +3,8 @@
 
 </script>
 
-<div class="image rounded h-[150px] w-[150px] bg-slate-700">
-    <img src="https://avatars.githubusercontent.com/u/129387924?s=400&u=953c70011c4e2b4c0c05dd51b502e2fc4a7ab06b&v=4" alt="github avatar"/>
+<div id="contact" class="image rounded h-[150px] w-[150px]">
+    <img class="rounded-full md:rounded-3xl lg:rounded-md" src="https://avatars.githubusercontent.com/u/129387924?s=400&u=953c70011c4e2b4c0c05dd51b502e2fc4a7ab06b&v=4" alt="github avatar"/>
 </div>
 <a href="/"><h1 class="text-3xl font-bold text-gray-400">Lethabo <span class="text-indigo-600">Maepa</span></h1></a>
 <section>
